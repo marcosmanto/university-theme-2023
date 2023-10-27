@@ -50,3 +50,5 @@ xmlrpc.php
 wp-content/plugins
 wp-content/upgrade
 wp-content/uploads
+
+.well-known
