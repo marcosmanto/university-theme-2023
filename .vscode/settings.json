@@ -1,5 +1,40 @@
 {
   "files.exclude": {
+    "**/.git": false,
+    "**/.svn": false,
+    "**/.hg": false,
+    "**/CVS": false,
+    "**/.DS_Store": false,
+    "**/Thumbs.db": false,
+    "**/.classpath": false,
+    "**/.project": false,
+    "**/.settings": false,
+    "**/.factorypath": false,
+    "**/.well-known": false,
+    "index.php": false,
+    "license.txt": false,
+    "readme.html": false,
+    "wp-activate.php": false,
+    "wp-admin": false,
+    "wp-blog-header.php": false,
+    "wp-comments-post.php": false,
+    "wp-config-sample.php": false,
+    "wp-config.php": false,
+    "wp-cron.php": false,
+    "wp-includes": false,
+    "wp-links-opml.php": false,
+    "wp-load.php": false,
+    "wp-login.php": false,
+    "wp-mail.php": false,
+    "wp-settings.php": false,
+    "wp-signup.php": false,
+    "wp-trackback.php": false,
+    "xmlrpc.php": false,
+    "wp-content\\themes/twentytwentyone": false,
+    "**/upgrade": false,
+    "wp-content\\themes/twentytwentythree": false
+  },
+  "explorerExclude.backup": {
     "**/.git": true,
     "**/.svn": true,
     "**/.hg": true,
@@ -10,6 +45,7 @@
     "**/.project": true,
     "**/.settings": true,
     "**/.factorypath": true,
+    "**/.well-known": true,
     "index.php": true,
     "license.txt": true,
     "readme.html": true,
@@ -29,7 +65,8 @@
     "wp-signup.php": true,
     "wp-trackback.php": true,
     "xmlrpc.php": true,
-    "wp-content\\themes/twentytwentyone": true
-  },
-  "explorerExclude.backup": {}
+    "wp-content\\themes/twentytwentyone": true,
+    "**/upgrade": true,
+    "wp-content\\themes/twentytwentythree": true
+  }
 }
